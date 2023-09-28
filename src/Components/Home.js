@@ -6,21 +6,7 @@ const Home = () => {
   return (
     <div>
       <Heros/>
-      <Questions/>
-
-
-
-
-
-
-
-
-
-
-
-
-
-      
+      <Questions/>      
     </div>
   )
 }

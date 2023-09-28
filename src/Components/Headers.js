@@ -80,7 +80,7 @@ export default function Headers() {
                   to="/"
                   className="-mx-3 block rounded-lg px-3 py-2 text-base font-semibold leading-7 text-gray-900 hover:bg-red-100 text-center"
                 >
-                  Check mental health
+                  Check mental health status
                 </Link>
                 <Link
                   to="/"

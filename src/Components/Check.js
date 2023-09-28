@@ -3,7 +3,7 @@ import React from 'react'
 const Check = () => {
   return (
     <div>
-      Check Mental health here
+      Check Mental health
     </div>
   )
 }
