@@ -1,8 +1,108 @@
 body {
-    background-color: rgba(227, 218, 218, 0.384);
-    
+    background-color: rgb(245, 247, 251);
 }
-/* *{
-    transition: all 0.2s ease-in;
-}*/
+.bgimg{
+    background-image: url('https://img.freepik.com/free-photo/marker-pen-clip-near-keyboard-sticker_23-2147864693.jpg?w=996&t=st=1696599681~exp=1696600281~hmac=8137b522a39e3f38a8bb50df41e62db10180b32b55b2247725cfa6f6e698d213') ;
+    background-size: cover;
+}
+.review{
+    background-image: url('https://img.freepik.com/free-vector/square-blue-neon-frame-brick-wall-background_53876-113790.jpg?w=740&t=st=1697217095~exp=1697217695~hmac=6112aeaf771c97408b546cf776e25011d157581fe17312f92a8c712af2044014') ;
+    background-size: cover;
+}
+.review::-webkit-scrollbar {
+    height: 0px;
+    cursor: pointer;
+}
+* {
+    transition: all 0.5s ease-in;
+}
 
+.mentalType::-webkit-scrollbar {
+    height: 3px;
+    cursor: pointer;
+}
+
+@media screen and (max-width: 700px) {
+    .mentalType::-webkit-scrollbar {
+        height: 0;
+        cursor: pointer;
+    }
+}
+
+.mentalType::-webkit-scrollbar-thumb {
+    background-color: hsl(210, 3%, 16%);
+}
+
+.mentalType::-webkit-scrollbar-track {
+    background-color: #ffffff;
+    border-radius: 3px;
+}
+
+.mentalType div {
+    border-radius: 3px;
+    box-shadow: 1px 3px 7px #977979;
+}
+
+.mentbtn{
+    box-shadow: 1px 3px 7px #977979;
+
+}
+/* .result{
+    box-shadow:10px 12px 13px  #7a967b;
+
+} */
+select {
+    display: block;
+    width: 250px;
+    border-radius: 3px;
+    margin: auto;
+}
+.custom-card{
+    cursor: pointer;
+}
+
+.custom-card:hover .text-on-hover {
+    display: flex;
+    animation: sizi 1s 1;
+}
+
+
+@keyframes sizi {
+    0% {
+        opacity: 0;
+        scale: 0.3;
+        transform: rotateY(90deg);
+    }
+    100% {
+        scale: 1;
+        opacity: 1;
+
+    }
+}
+@keyframes sze {
+    0% {
+        
+    }
+    100% {
+  
+    }
+}/* 
+.ques {
+    animation-name: sze;
+    animation-duration: 3s; 
+    animation-iteration-count: infinite;
+    animation-timing-function: ease-in;
+} */
+
+.qbg{
+    background-image: url('https://img.freepik.com/free-vector/white-question-mark-background-minimal-style_1017-25235.jpg?w=740&t=st=1696791361~exp=1696791961~hmac=4d4fa29410be682045ab24f0f4e7db037d2fa2b3212c382faf3fc173ef512d01') ;
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center; 
+}
+.des{
+    animation-name: sze;
+    animation-duration: 3s; 
+    animation-iteration-count: infinite;
+    animation-timing-function: ease-in;
+}

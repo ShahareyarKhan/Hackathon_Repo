@@ -1,12 +1,16 @@
 import React from 'react'
 import Heros from './Heros'
-import Questions from './Questions'
+import MentalType from './MentalType'
+import Footer from './Footer'
+import QuestionBlock from './QuestionBlock'
 
 const Home = () => {
   return (
     <div>
       <Heros/>
-      <Questions/>      
+      <MentalType/>
+      <QuestionBlock/>
+      <Footer/>
     </div>
   )
 }
