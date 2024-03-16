@@ -1,21 +1,23 @@
 import React from 'react'
-import { BsArrowUp, } from 'react-icons/bs'
-import { FaHome } from 'react-icons/fa'
-import { Link } from 'react-router-dom'
+import { FaFacebook, FaInstagram, FaLink, FaLinkedin, FaTwitter } from 'react-icons/fa'
 
 const Footer = () => {
     return (
-        <div className='flex w-full justify-between items-center h-[70px] bg-gray-200'>
-            <div className='ml-8 flex  font-semibold'>
-            Respond to the assessment questions to examine your mental health using ml model.
+        <footer className='p-5 h-[40vh] bg-[#2650f760] flex justify-center items-center flex-col mt-9'>
+            <div className='text-2xl lg:text-3xl'>Hackathon</div>
+            
+            <div className='flex gap-11 my-4 lg:text-xl'>
+                <div><FaFacebook className='text-2xl lg:text-3xl'/></div>
+                <div><FaInstagram className='text-2xl lg:text-3xl'/></div>
+                <div><FaTwitter className='text-2xl lg:text-3xl'/></div>
+                <div><FaLinkedin className='text-2xl lg:text-3xl'/></div>
             </div>
-            <div className='text-3xl cursor-pointer text-end mr-8 p-3 rounded-full text-black '>
-                <Link to={'/'}>
-                    
-                <FaHome className='font-bold' />
-                </Link>
+
+            <div className='bg-blue-400 cursor-pointer my-4 px-4 rounded-3xl font-semibold border-2 border-black'>
+                <input type="text" className='min-w-[300px] p-3 outline-none bg-blue-400 placeholder:text-gray-600' placeholder='Enter Email'/>
+                Subscribe
             </div>
-        </div>
+        </footer>
     )
 }
 
