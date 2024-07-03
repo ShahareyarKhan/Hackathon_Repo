@@ -10,7 +10,7 @@ const Comp1 = (props) => {
       <h1 className='text-center'>{props.name}</h1>
       <h1 className='text-center'>{props.age}</h1>
       <h1 className='text-center'>{props.email}</h1>
-      <h1 className='text-center cursor-pointer' onClick={handleModeChange}>{props.mode}</h1>
+      <div className='my-3 p-3 text-center cursor-pointer bg-[#234] w-[90px] mx-auto rounded-xl text-white' onClick={handleModeChange}>{props.mode}</div>
     </div>
   );
 };
